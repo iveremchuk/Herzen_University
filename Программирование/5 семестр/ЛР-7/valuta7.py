@@ -13,8 +13,6 @@ class CurrenciesList(ABC):
 
 class BasicCurrenciesList(CurrenciesList):
     def get_currencies(self) -> dict:
-        # Реализация получения курсов валют с сайта Центробанка
-        # Возвращает словарь со структурой, описанной в одной из предыдущих лабораторных работ
         pass
 
 class CurrencyDecorator(CurrenciesList):
@@ -32,8 +30,7 @@ class ConcreteDecoratorJSON(CurrencyDecorator):
 class ConcreteDecoratorCSV(CurrencyDecorator):
     def get_currencies(self) -> str:
         data = self._currency_list.get_currencies()
-        # Преобразование в формат CSV
-        # ...
+        
 
 # Пример 
 basic = BasicCurrenciesList()
