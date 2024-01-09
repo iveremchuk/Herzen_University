@@ -1,3 +1,6 @@
+"""
+Выполнил Веремчук Илья 3 курс ИВТ 1.1
+"""
 from urllib.request import urlopen  
 from xml.etree import ElementTree as ET  
 import time
