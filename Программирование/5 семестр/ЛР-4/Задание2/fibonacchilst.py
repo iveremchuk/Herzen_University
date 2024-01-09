@@ -1,3 +1,6 @@
+"""
+Выполнил Веремчук Илья 3 курс ИВТ 1.1
+"""
 class FibonacciLst:
     def __init__(self):
         self.fibs_list = [0, 1]
