@@ -1,3 +1,6 @@
+"""
+Выполнил Веремчук Илья 3 курс ИВТ 1.1
+"""
 from app_lr8.models import User
 
 class UserIlya(User):
