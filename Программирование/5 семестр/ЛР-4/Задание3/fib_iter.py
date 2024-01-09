@@ -1,3 +1,6 @@
+"""
+Выполнил Веремчук Илья 3 курс ИВТ 1.1
+"""
 from itertools import islice
 
 def fib_iter(iterable):
