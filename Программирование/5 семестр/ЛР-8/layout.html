@@ -1,0 +1,12 @@
+    <h1>User Information</h1>
+    <ul>
+        <li>Date of Birth: {{ user.date_of_birth }}</li>
+        <li>Favorite Movies: </li>
+        {% for movie in user.favorite_movies %}
+            <li>{{ movie }}</li>
+        {% endfor %}
+        <li>Favorite Hobbies: </li>
+        {% for hobby in user.favorite_hobbies %}
+            <li>{{ hobby }}</li>
+        {% endfor %}
+    </ul>
