@@ -1,3 +1,6 @@
+"""
+Выполнил Веремчук Илья 3 курс ИВТ 1.1
+"""
 from abc import ABC, abstractmethod
 import requests
 import json
