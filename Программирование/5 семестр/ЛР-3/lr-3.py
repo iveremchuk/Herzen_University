@@ -1,3 +1,6 @@
+"""
+Выполнил Веремчук Илья 3 курс ИВТ 1.1
+"""
 import requests
 
 def get_weather_data(place, api_key=None):
